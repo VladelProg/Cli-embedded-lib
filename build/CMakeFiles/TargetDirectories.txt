@@ -1,4 +1,0 @@
-/home/vlade/proj/build/CMakeFiles/rebuild_cache.dir
-/home/vlade/proj/build/CMakeFiles/edit_cache.dir
-/home/vlade/proj/build/CMakeFiles/cli_example.dir
-/home/vlade/proj/build/CMakeFiles/cli.dir
