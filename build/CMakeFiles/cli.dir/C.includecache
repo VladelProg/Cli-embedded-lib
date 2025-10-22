@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlade/proj/inc/cli.h
+stdint.h
+-
+stddef.h
+-
+
+/home/vlade/proj/inc/cli_command.h
+
+/home/vlade/proj/src/cli.c
+../inc/cli.h
+/home/vlade/proj/inc/cli.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/vlade/proj/src/cli_command.c
+../inc/cli_command.h
+/home/vlade/proj/inc/cli_command.h
+stdio.h
+-
+stdlib.h
+-
+
