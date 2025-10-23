@@ -6,6 +6,11 @@
 static cli_command_t *commands[16];
 static size_t command_count = 0;
 
+void cli_init() {
+    // Инициализация CLI (например, регистрация стандартных команд)
+}
+
+
 void cli_register_command(cli_command_t *command) {
     if (command_count < 16) {
         commands[command_count++] = command;
